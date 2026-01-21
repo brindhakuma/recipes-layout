@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="delicious">
+        <div class="unorder">
+        <img src="images/Screenshot 2026-01-19 180041.png" style="width: 40px;height: 40px;">
+        <p style="text-shadow: 0 4px 8px rgba(0,0,0,0.5); font-weight: 550;">Recipe Finder</p>
+        <a href="home.html"> <h3>Home</h3></a>
+       <a href="recipes.html"> <h3>Recipes</h3></a>
+        <a href="categories.html">  <h3>Categories</h3></a>
+        <a href="second.html">  <h3>Ingredients Search</h3></a>
+        </div>
+        <div class="order">
+            <div class="searchbox">
+            <input type="search" type="search">
+            <img src="images/Screenshot 2026-01-19 180100.png" style="width: 20px;height: 20px;">
+            </div>
+            <a href="user.html">  <img src="images/Screenshot 2026-01-19 180112.png" style="width: 35px;height: 35px;"></a>
+           <a href="login.html"> <button>Login</button></a>
+        </div>
+    </header>
+
+<h2 style="padding-left: 50px;">Recipes</h2>
+<div class="pastabtn">
+    <button>Veg/non-Veg <img src="images/Screenshot 2026-01-20 180401.png" id="firstdrop"></button>
+    <button>Cuisine <img src="images/Screenshot 2026-01-20 180401.png" id="secondrop"></button>
+    <button>Meal type <img src="images/Screenshot 2026-01-20 180401.png" id="third"></button>
+</div>
+
+
+<div class="veg" id="veg">
+    <p>Veg</p>
+    <p>Non-Veg</p>
+</div>
+<div class="nonveg" id="nonveg">
+    <p>Cuisine</p>
+    <p>Indian</p>
+    <p>Chinese</p>
+    <p>Italian</p>
+</div>
+<div class="cuisine" id="cuisine">
+    <p>Breakfast</p>
+    <p>Lunch</p>
+    <p>Dinner</p>
+</div>
+
+
+
+
+<section class="meals">
+    <div class="luck">
+        <a href="recipestwo.html">
+        <img src="images/Depth 6, Frame 0 (1).jpg">
+        <div class="game">
+            <h3>Creamy Tomato<br><br><br><br><br><br><br></v>Pasta</h3>
+            <p style="color: gray;">60 min 4.5</p>
+        </div></a>
+    </div>
+
+     <div class="luck">
+        
+        <img src="images/Depth 7, Frame 0 (20).jpg">
+        <div class="game">
+            <h3>Vegetable Briyani</h3>
+            <p style="color: gray;">45 min.4.2</p>
+        </div>
+    </div>
+
+     <div class="luck">
+        <img src="images/Depth 7, Frame 0 (21).jpg">
+        <div class="game">
+            <h3>Tofu stir-fry</h3>
+            <p style="color: gray;">35 min 4.3</p>
+        </div>
+    </div>
+
+     <div class="luck">
+        <img src="images/Depth 7, Frame 0 (22).jpg">
+        <div class="game">
+            <h3>Pasta Carbonara</h3>
+            <p style="color: gray;">30 min.4.8 </p>
+        </div>
+    </div>
+
+     <div class="luck">
+        <img src="images/Depth 7, Frame 0 (23).jpg">
+        <div class="game">
+            <h3>Grilled salmon</h3>
+            <p style="color: gray;">25 min 4.6</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="meals">
+    <div class="luck">
+        <img src="images/Depth 7, Frame 0 (25).jpg">
+        <div class="game">
+            <h3>Beef tacos</h3>
+            <p style="color: gray;">40 min 4.7</p>
+        </div>
+    </div>
+
+     <div class="luck">
+        <img src="images/Depth 7, Frame 0 (26).jpg">
+        <div class="game">
+            <h3>Mushroom Risotto</h3>
+            <p style="color: gray;">50 min 4.5</p>
+        </div>
+    </div>
+
+     <div class="luck">
+        <img src="images/Depth 7, Frame 0 (27).jpg">
+        <div class="game">
+            <h3>Shrimp Scampi</h3>
+            <p style="color: gray;">20 min 4.5</p>
+        </div>
+    </div>
+
+     <div class="luck">
+        <img src="images/Depth 7, Frame 0 (28).jpg">
+        <div class="game">
+            <h3>Lentil Soup</h3>
+            <p style="color: gray;">60 min 4.5</p>
+        </div>
+    </div>
+
+     <div class="luck">
+        <img src="images/Depth 7, Frame 0 (29).jpg">
+        <div class="game">
+            <h3>Pork Dumplings</h3>
+            <p style="color: gray;">60 min 4.5</p>
+        </div>
+    </div>
+</section>
+
+
+    <footer>
+    <ul>
+        <li>Contact</li>
+        <li>Privacy Policy</li>
+        <li>Terms of service</li>
+    </ul>
+    <div class="victory">
+        <img src="images/Screenshot 2026-01-19 205246.png">
+    </div>
+    
+        <p style="text-align: center;">&copy 2024 Recipe finder.All rights reserved.</p>
+    
+</footer>
+<script>
+    const one = document.getElementById("firstdrop")
+    const two = document.getElementById("veg")
+    one.addEventListener("click",function(){
+        if(two.style.display == "block"){
+            two.style.display =  "none";
+        }else{
+            two.style.display = "block";
+        }
+    })
+
+    const three = document.getElementById("secondrop")
+    const four = document.getElementById("nonveg")
+    three.addEventListener("click",function(){
+        if(four.style.display == "block"){
+            four.style.display =  "none";
+        }else{
+            four.style.display = "block";
+        }
+    })
+
+    const five = document.getElementById("third")
+    const six = document.getElementById("cuisine")
+    five.addEventListener("click",function(){
+        if(six.style.display == "block"){
+            six.style.display =  "none";
+        }else{
+            six.style.display = "block";
+        }
+    })
+</script>
+</body>
+</html>

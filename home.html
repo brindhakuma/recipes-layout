@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="delicious">
+        <div class="unorder">
+        <img src="images/Screenshot 2026-01-19 180041.png" style="width: 40px;height: 40px;">
+        <p style="text-shadow: 0 4px 8px rgba(0,0,0,0.5); font-weight: 550;">Recipe Finder</p>
+       <a href="home.html" > <h3 class="active">Home</h3></a>
+       <a href="recipes.html"> <h3>Recipes</h3></a>
+        <a href="categories.html">  <h3>Categories</h3></a>
+        <a href="second.html">  <h3>Ingredients Search</h3></a>
+        </div>
+        <div class="order">
+            <div class="searchbox">
+            <input type="search" id="pageinput">
+            <img src="images/Screenshot 2026-01-19 180100.png" style="width: 20px;height: 20px;">
+            </div>
+           <a href="user.html"> <img src="images/Screenshot 2026-01-19 180112.png" style="width: 35px;height: 35px;"></a>
+           <a href="login.html"> <button>Login</button></a>
+        </div>
+    </header>
+
+    <section class="dark">
+        <img src="images/Depth 5, Frame 4.jpg">
+    </section>
+
+    <div class="today">
+        <h1>Find Delicious Recipes in Minutes</h1>
+        <p>Search recipes by ingredients,cuisine,or meal type</p>
+        <div class="minutes">
+            <input type="search" placeholder="Search recipes" id="berry">
+            <img src="images/Screenshot 2026-01-19 180100.png">
+           <a href="recipes.html"> <button>Search</button></a>
+        </div>
+    </div>
+  <h2 style="padding-left: 45px;">Popular Recipes</h2>
+    <section class="popular">
+      
+        <div>
+            <a href="second.html">
+            <img src="images/Depth 6, Frame 0.jpg" style="width: 350px;height: 170px;border-radius: 11px;">
+            <div class="game">
+                <p>Creamy Tomato Pasta</p>
+                <p style="text-shadow: 0 4px 8px rgba(0,0,0,0.5); color: maroon;">Quick and easy pasta recipe</p>
+            </div>
+            </a>
+        </div>
+
+         <div>
+            <img src="images/Depth 7, Frame 0.jpg" style="width: 350px;height: 170px;border-radius: 11px;">
+            <div class="game">
+                <p>Fresh Garden Salad</p>
+                <p  style="text-shadow: 0 4px 8px rgba(0,0,0,0.5); color: maroon;">Healthy and refreshing salad</p>
+            </div>
+        </div>
+
+         <div>
+            <img src="images/Depth 7, Frame 0 (1).jpg" style="width: 350px;height: 170px;border-radius: 11px;">
+            <div class="game">
+                <p>Hearty Vegetable Soup</p>
+                <p  style="text-shadow: 0 4px 8px rgba(0,0,0,0.5); color: maroon;">Warm and comforting soup</p>
+            </div>
+        </div>
+    </section>
+
+
+    <h2 style="padding-left: 45px;">Popular Recipes</h2>
+    <section class="popular">
+      
+        <div>
+            <img src="images/Depth 7, Frame 0 (2).jpg">
+            <div class="game">
+                <p>Creamy Tomato Pasta</p>
+                <p  style="text-shadow: 0 4px 8px rgba(0,0,0,0.5); color: maroon;">Quick and easy pasta recipe</p>
+            </div>
+        </div>
+
+         <div>
+            <img src="images/Depth 7, Frame 0 (3).jpg" style="width: 350px;height: 170px;border-radius: 11px;">
+            <div class="game">
+                <p>Fresh Garden Salad</p>
+                <p  style="text-shadow: 0 4px 8px rgba(0,0,0,0.5); color: maroon;">Healthy and refreshing salad</p>
+            </div>
+        </div>
+
+         <div>
+            <img src="images/Depth 7, Frame 0 (4).jpg">
+            <div class="game">
+                <p>Hearty Vegetable Soup</p>
+                <p  style="text-shadow: 0 4px 8px rgba(0,0,0,0.5); color: maroon;">Warm and comforting soup</p>
+            </div>
+        </div>
+    </section>
+
+    <h1 style="padding-left: 45px;">Why Choose Us</h1>
+    <h2 style="padding-left: 45px;">Our Features</h2>
+    <p style="padding-left: 45px;font-weight: 550;">Discover why our recipe finder is the nest choice for your culinary adventures.</p><br><br>
+<div class="simple">
+    <div class="calc">
+        <img src="images/Screenshot 2026-01-19 192901.png">
+        <h4>Easy ingredient-based search</h4>
+        <p style="color: maroon;">Find recipes using the ingredients you have on hand</p>
+    </div>
+
+    <div class="calc">
+        <img src="images/Screenshot 2026-01-19 192907.png">
+        <h4>Step-by-step instructions</h4>
+        <p style="color: maroon;">Follow clear,easy-to-understand instructions for perfect results.</p>
+    </div>
+
+    <div class="calc">
+        <img src="images/Screenshot 2026-01-19 192921.png">
+        <h4>Save & cook anytime</h4>
+        <p style="color: maroon;">Save your favourite recipes and access them whenever you are ready to cook.</p>
+    </div>
+</div>
+
+<footer>
+    <ul>
+        <li>Contact</li>
+        <li>Privacy Policy</li>
+        <li>Terms of service</li>
+    </ul>
+    <div class="victory">
+        <img src="images/Screenshot 2026-01-19 205246.png">
+    </div>
+    
+        <p style="text-align: center;">&copy 2024 Recipe finder.All rights reserved.</p>
+    
+</footer>
+<script>
+    const sharp = document.getElementById("pageinput");
+
+    sharp.addEventListener("keydown", function (event) {
+        if (event.key === "Enter") {
+            const page = sharp.value.trim().toLowerCase();
+
+            if (page === "recipes") {
+                window.location.href = "recipes.html";
+            } 
+            else if (page === "categories") {
+                window.location.href = "categories.html";
+            } 
+            else if (page === "ingredients" || page === "second") {
+                window.location.href = "second.html";
+            } 
+            else if (page === "home") {
+                window.location.href = "home.html";
+            }
+            else {
+                alert("Page not found");
+            }
+        }
+    });
+
+    const coco = document.getElementById("berry")
+    coco.addEventListener("click",function(){
+        coco.value = "recipes";
+    })
+</script>
+
+</body>
+</html>

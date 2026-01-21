@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="delicious">
+        <div class="unorder">
+        <img src="images/Screenshot 2026-01-19 180041.png" style="width: 40px;height: 40px;">
+        <p style="text-shadow: 0 4px 8px rgba(0,0,0,0.5); font-weight: 550;">Recipe Finder</p>
+        <a href="home.html"> <h3>Home</h3></a>
+       <a href="recipes.html"> <h3>Recipes</h3></a>
+        <a href="categories.html">  <h3>Categories</h3></a>
+        <a href="second.html">  <h3>Ingredients Search</h3></a>
+        </div>
+        <div class="order">
+            <div class="searchbox">
+            <input type="search" type="search">
+           <img src="images/Screenshot 2026-01-19 180100.png" style="width: 20px;height: 20px;">
+            </div>
+           <a href="user.html">  <img src="images/Screenshot 2026-01-19 180112.png" style="width: 35px;height: 35px;"></a>
+            <a href="login.html"><button>Login</button></a>
+        </div>
+    </header>
+
+
+    <h2>My Favourite Recipes</h2>
+
+    <div class="serve" id="served">
+        <div class="bin">
+        <img src="images/Screenshot 2026-01-20 094949.png" style="width: 70px;height: 70px;">
+        <div>
+            <h3>Classic Margherita Pizza</h3>
+            <p>30 min.4 servings</p>
+        </div>
+        </div>
+        <div class="bin">
+            <img src="images/icons8-garbage-30.png" style="width: 20px;height: 20px;margin-top: 15px;">
+            <p id="delete">Remove</p>
+        </div>
+    </div>
+
+    <div class="serve">
+        <div class="bin">
+        <img src="images/Screenshot 2026-01-20 095006.png" style="height: 70px;width: 70px;">
+        <div>
+            <h3>Creamy Tomato Pasta</h3>
+            <p>45 min.6 servings</p>
+        </div>
+        </div>
+        <div class="bin">
+            <img src="images/icons8-garbage-30.png" style="width: 20px;height: 20px;margin-top: 15px;">
+            <p>Remove</p>
+        </div>
+    </div>
+
+    <div class="serve">
+        <div class="bin">
+        <img src="images/Screenshot 2026-01-20 095017.png" style="height: 70px;width: 70px;">
+        <div>
+            <h3>Chicken Tikka Masala</h3>
+            <p>1hr 15 min.8 servings</p>
+        </div>
+        </div>
+        <div class="bin">
+            <img src="images/icons8-garbage-30.png" style="width: 20px;height: 20px;margin-top: 15px;">
+            <p>Remove</p>
+        </div>
+    </div>
+
+
+    <div class="serve">
+        <div class="bin">
+        <img src="images/Screenshot 2026-01-20 095028.png" style="height: 70px;width: 70px;">
+        <div>
+            <h3>Avacado Toast with Egg</h3>
+            <p>20 min.2 servings</p>
+        </div>
+        </div>
+        <div class="bin">
+            <img src="images/icons8-garbage-30.png" style="width: 20px;height: 20px;margin-top: 15px;">
+            <p>Remove</p>
+        </div>
+    </div>
+
+    <div class="serve">
+        <div class="bin">
+        <img src="images/Screenshot 2026-01-20 095043.png" style="height: 70px;width: 70px;">
+        <div>
+            <h3>Beef Strongnof</h3>
+            <p>1hr 30 min.10 servings</p>
+        </div>
+        </div>
+        <div class="bin">
+            <img src="images/icons8-garbage-30.png" style="width: 20px;height: 20px;margin-top: 15px;">
+            <p>Remove</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+    <ul>
+        <li>Contact</li>
+        <li>Privacy Policy</li>
+        <li>Terms of service</li>
+    </ul>
+    <div class="victory">
+        <img src="images/Screenshot 2026-01-19 205246.png">
+    </div>
+    
+        <p style="text-align: center;">&copy 2024 Recipe finder.All rights reserved.</p>
+    
+</footer>
+<script>
+    const test = document.getElementById("delete")
+    const cap = document.getElementById("served")
+    test.addEventListener("click",function(){
+        cap.style.display = "none";
+    })
+</script>
+</body>
+</html>

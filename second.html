@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="delicious">
+        <div class="unorder">
+        <img src="images/Screenshot 2026-01-19 180041.png" style="width: 40px;height: 40px;">
+        <p style="text-shadow: 0 4px 8px rgba(0,0,0,0.5); font-weight: 550;">Recipe Finder</p>
+        <a href="home.html"> <h3>Home</h3></a>
+       <a href="recipes.html"> <h3>Recipes</h3></a>
+        <a href="categories.html">  <h3>Categories</h3></a>
+        <a href="second.html">  <h3 class="active">Ingredients Search</h3></a>
+        </div>
+        <div class="order">
+            <div class="searchbox">
+            <input type="search" type="search">
+            <img src="images/Screenshot 2026-01-19 180100.png" style="width: 20px;height: 20px;">
+            </div>
+            <a href="user.html">  <img src="images/Screenshot 2026-01-19 180112.png" style="width: 35px;height: 35px;"></a>
+            <a href="login.html"><button>Login</button></a>
+        </div>
+    </header>
+
+
+<h3>Search Recipes by Ingredients</h3>
+<div class="end">
+<h4>Enter ingredients you have</h4>
+<input type="text" placeholder="tomato,onion,egg" style="width: 350px;padding: 8px;border: none;box-shadow: 0 4px 8px rgba(0,0,0,0.5);" id="vegetables">
+<div><br>
+<button style="border: none;padding: 8px;background-color: rgb(189, 16, 16);font-weight: 550;border-radius: 8px;" id="fritter">Find Recipes</button>
+</div>
+</div>
+
+<div id="fruits" class="fruits">
+<h3 style="padding-left: 140px;">Recipe Results</h3>
+    <div class="sweet">
+    <div class="sour">
+    <h4>Classic tomato and Basil pasta</h4>
+    <p style="color: rgb(124, 72, 22);">A simple pasta dish with fresh tomatoes,basil and garlic</p>
+   <a href="resultwo.html"> <button>View Recipes</button></a>
+    </div>
+    <div>
+        <img src="images/Depth 6, Frame 0.jpg">
+    </div>
+    </div>
+
+    <div class="sweet">
+    <div class="sour">
+    <h4>Onion and Egg Fritters</h4>
+    <p style="color: rgb(124, 72, 22);">A quick and easy fritters with caramelized onions and fluffy eggs.</p>
+    <button>View Recipes</button>
+    </div>
+    <div>
+        <img src="images/Depth 6, Frame 1.jpg">
+    </div>
+    </div>
+
+    <div class="sweet">
+    <div class="sour">
+    <h4>Classic tomato and Basil pasta</h4>
+    <p style="color: rgb(124, 72, 22);">A refreshing salad with ripe tomatoes,red onions and hard-boiled eggs.</p>
+    <button>View Recipes</button>
+    </div>
+    <div>
+        <img src="images/Depth 6, Frame 1 (1).jpg">
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+    <ul>
+        <li>Contact</li>
+        <li>Privacy Policy</li>
+        <li>Terms of service</li>
+    </ul>
+    <div class="victory">
+        <img src="images/Screenshot 2026-01-19 205246.png">
+    </div>
+    
+        <p style="text-align: center;">&copy 2024 Recipe finder.All rights reserved.</p>
+    
+</footer>
+<script>
+        const one = document.getElementById("fruits")
+        const two = document.getElementById("fritter")
+        two.addEventListener("click",function(){
+            one.style.display = "block";
+        })
+
+        const oil = document.getElementById("vegetables")
+        oil.addEventListener("click",function(){
+            oil.value = "Tomato";
+        })
+</script>
+</body>
+</html>

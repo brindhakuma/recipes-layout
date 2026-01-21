@@ -1,0 +1,339 @@
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #F4E8E8;
+}
+.delicious{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.unorder{
+    display: flex;
+    gap: 50px;
+}
+.unorder a{
+    text-decoration: none;
+    color: black;
+}
+.order{
+    display: flex;
+    gap: 20px;
+}
+.searchbox img{
+    position: absolute;
+    right: 120px;
+    top: 10px;
+}
+.searchbox{
+    position: relative;
+}
+.searchbox input{
+    padding: 11px;
+    width: 150px;
+    border: 1px solid maroon;
+    border-radius: 8px;
+    background-color: #F4E8E8;
+}
+.order button{
+    width: 100px;
+    border: none;
+    height: 40px;
+    background-color: rgb(165, 30, 30);
+    font-size: large;
+    font-weight: 550;
+    border-radius: 11px;
+}
+.dark img{
+    width: 1300px;
+    position: relative;
+    text-align: center;
+}
+.minutes{
+    position: relative;
+}
+.minutes input{
+    padding: 15px;
+    width: 450px;
+    position: absolute;
+    background-color: #F4E8E8;
+    border-radius: 8px;
+    border: none;
+}
+.minutes button{
+    padding: 11px;
+    position: absolute;
+    left: 370px;
+    top: 5px;
+    background-color: rgb(181, 47, 47);
+    font-size: small;
+    font-weight: 550;
+    border: none;
+    border-radius: 8px;
+}
+.minutes img{
+    position: absolute;
+    left: 22px;
+    top: 10px;
+    width: 25px;
+}
+.minutes input::placeholder{
+    padding-left: 55px;
+    color: maroon;
+}
+.today{
+    left: 60px;
+    top: -370px;
+    color: white;
+    padding-left: 420px;
+    position: relative;
+}
+.popular{
+    display: flex;justify-content: space-around;
+}
+.simple{
+    display: flex;
+    justify-content: space-around;
+}
+.calc{
+    width: 300px;
+    background-color: white;
+    padding: 11px;
+    border-radius: 11px;
+}
+footer{
+    background-color: #f0998f;
+    padding: 25px;
+    margin-top: 25px;
+    font-weight: 550;
+}
+footer ul{
+    list-style: none;
+     display: flex;
+     justify-content: space-around;
+}
+.victory{
+    padding-left: 550px;
+}
+.meals{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.luck img{
+    width: 150px;
+    height: 100px;
+}
+.luckone{
+    position: relative;
+    left: -190px;
+}
+.lucktwo{
+    position: relative;
+    left: -580px;
+}
+.sweet{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.sweet img{
+    width: 350px;
+}
+.together img{
+    width: 1000px;
+    height: 550px;
+}
+.order button{
+    cursor: pointer;
+}
+.minutes button{
+    cursor: pointer;
+}
+.end button{
+    cursor: pointer;
+}
+.together{
+    padding-left: 150px;
+    margin-top: 25px;
+}
+.sour button{
+    cursor: pointer;
+}
+.saved button{
+    cursor: pointer;
+}
+.bin{
+    cursor: pointer;
+}
+.garlic{
+    display: flex;
+    font-size: large;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+}
+.bin{
+    display: flex;
+    gap: 15px;
+}
+.serve{
+    display: flex;
+    justify-content: space-between;
+}
+.bases{
+    text-align: center;
+    margin-top: 25px;
+}
+.prof button{
+    padding: 8px;
+    width: 250px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    font-weight: 550;
+    border-radius: 11px;
+}
+.logs button{
+    padding: 8px;
+    width: 100px;
+    margin-top: 25px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    font-weight: 550;
+    border-radius: 11px;
+    margin-bottom: 150px;
+}
+.contacts{
+    text-align: left;
+    padding-left: 380px;
+    margin-bottom: 170px;
+    margin-top: 50px;
+}
+.contacts input{
+    padding: 7px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 5px;
+}
+.finder button{
+    padding: 8px;
+    width: 300px;
+    background-color: rgb(174, 24, 24);
+    border: none;
+    font-weight: 550;
+    border-radius: 8px;
+}
+.contacts label{
+    font-weight: 550;
+}
+.end{
+    margin-bottom: 240px;
+}
+.fruits{
+    display: none;
+    margin-top: -100px;
+}
+.game{
+    line-height: 2px;
+    font-weight: 550;
+}
+.popular a{
+    text-decoration: none;
+    color: black;
+}
+.pastabtn{
+    padding-left: 50px;
+}
+.pastabtn button{
+    background-color: #f0998f;
+    padding: 7px;
+    border-radius: 8px;
+    border: none;
+    font-size: medium;
+    font-weight: 550;
+    width: 180px;
+    cursor: pointer;
+}
+.veg{
+    position: absolute;
+    left: 160px;
+    display: none;
+}
+.veg p{
+    width: 100px;
+    background-color: #f0998f;
+    padding: 7px;
+}
+.nonveg{
+    position: absolute;
+    left: 340px;
+     display: none;
+}
+.nonveg p{
+    width: 100px;
+    background-color: #f0998f;
+    padding: 7px;
+}
+.cuisine{
+    position: absolute;
+    left: 530px;
+     display: none;
+}
+.logs button{
+    cursor: pointer;
+}
+.finder button{
+    cursor: pointer;
+}
+.cuisine p{
+    width: 100px;
+    background-color: #f0998f;
+    padding: 7px;
+}
+.luck a{
+    text-decoration: none;
+    color: black;
+}
+.saved .to{
+    background-color: rgb(174, 61, 61);
+    border: none;
+    border-radius: 8px;
+    font-weight: 550;
+    padding: 11px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+.saved button{
+    padding: 11px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 550;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+.sweet button{
+    background-color: #f0998f;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: medium;
+    font-weight: 550;
+}
+.sour{
+    width: 450px;
+}
+.searchbox input{
+    padding-left: 55px;
+}
+.minutes input{
+    padding-left: 55px;
+    font-weight: 550;
+}
+.delicious a:hover{
+    color: rgb(213, 116, 18);
+    text-decoration: underline;
+}
+.active{
+ color: rgb(213, 116, 18);   
+}
